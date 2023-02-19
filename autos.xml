@@ -41,4 +41,24 @@
 			</engine>
 		</detail>
 	</auto>
+	<auto>
+		<general>
+			<model>Lada Vesta Sport</model>
+			<year_manufacture>2021</year_manufacture>
+			<color>Gray</color>
+			<price>28.500$</price>
+		</general>
+		<detail>
+			<weight>1332 kg</weight>
+			<drive>FWD</drive>
+			<engine>
+				<type>Inline, 4-cylinder</type>
+				<fuel>Gasoline</fuel>
+				<volume>1.8</volume>
+				<supercharger_type>None</supercharger_type>
+				<max_power>145 hp</max_power>
+				<max_torque>184 nm</max_torque>
+			</engine>
+		</detail>
+	</auto>
 </cars>
