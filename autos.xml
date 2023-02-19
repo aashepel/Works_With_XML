@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE auto>
+<auto>
+	<general>
+		<model>Audi A8</model>
+		<year_manufacture>2015</year_manufacture>
+		<color>Black</color>
+		<price>50.000$</price>
+	</general>
+	<detail>
+		<weight>1915 kg</weight>
+		<drive>4WD</drive>
+		<engine>
+			<type>V-shaped, 6-cylinder</type>
+			<fuel>Disel</fuel>
+			<volume>3.0</volume>
+			<supercharger_type>Turbine</supercharger_type>
+			<max_power>258 hp</max_power>
+			<max_torque>550 nm</max_torque>
+		</engine>
+	</detail>
+</auto>
+<auto>
+	<general>
+		<model>BMW 5-series</model>
+		<year_manufacture>2020</year_manufacture>
+		<color>Black</color>
+		<price>45.000$</price>
+	</general>
+	<detail>
+		<weight>1770 kg</weight>
+		<drive>4WD</drive>
+		<engine>
+			<type>Inline, 6-cylinder</type>
+			<fuel>Disel</fuel>
+			<volume>3.0</volume>
+			<supercharger_type>Turbine</supercharger_type>
+			<max_power>249 hp</max_power>
+			<max_torque>620 nm</max_torque>
+		</engine>
+	</detail>
+</auto>

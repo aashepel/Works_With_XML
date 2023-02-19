@@ -1,0 +1,17 @@
+.wrapper-block
+{
+    padding: 10px;
+    border-left: solid;
+    border-right: solid;
+}
+
+.info-block
+{
+    margin-left: 25px;
+}
+
+.info-block
+{
+    margin: 10px;
+    padding-left: 20px;
+}
