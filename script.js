@@ -8,20 +8,13 @@ window.onload = function()
     {
         alert(xhr.status + ': ' + xhr.statusText);
     }
-    else
-    {
-        console.log(xhr.responseXML);
-    }
     const parser = new DOMParser();
     const doc = parser.parseFromString(xhr.responseText, "application/xml");
-    console.log(doc)
-    var autos = [].slice.call(doc.getElementsByTagName("auto"));
+    var autos = [].slice.call(doc.getElementsByTagName("cars")[0].getElementsByTagName("auto"));
     var container = document.getElementsByClassName("container")[0]
 
     autos.forEach(element => {
         let auto_obj = getObjectFromXmlElement(element);
-        console.log(auto_obj)
-        console.log(element)
         container.innerHTML += 
         `
         <div class="wrapper-block">
